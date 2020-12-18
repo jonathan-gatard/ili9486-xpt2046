@@ -8,3 +8,5 @@ Overlay pour OrangePiZero écran ili9486 + xpt2046 (3.5inch rpi lcd (a) v3)
 Pin DC : 18
 
 Pin Reset : 2
+
+Fonctionne sur Amrbian Buster kernel 5.4.43-sunxi
