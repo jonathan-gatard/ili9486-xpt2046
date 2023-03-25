@@ -1,5 +1,5 @@
 # ili9486
-Overlay pour OrangePiZero écran ili9486 + xpt2046 (3.5inch rpi lcd (a) v3)
+Overlay for OrangePiZero screen ili9486 + xpt2046 (3.5inch rpi lcd (a) v3)
 
 
 
@@ -8,8 +8,8 @@ Overlay pour OrangePiZero écran ili9486 + xpt2046 (3.5inch rpi lcd (a) v3)
 Pin DC : 18
 Pin Reset : 2
 
-Fonctionne sur Amrbian Buster kernel 5.4.43-sunxi
+Works on Amrbian Buster kernel 5.4.43-sunxi
 
-Avec xinput, repérer le nom du pointeur : "DISPLAY=:0.0 xinput list"
-puis appliquer la matrice pour transformer les coordonées:
+With xinput, get pointer name : "DISPLAY=:0.0 xinput list"
+then apply matrix to modify coordinates:
 "DISPLAY=:0.0 xinput --set-prop 'ADS7846 Touchscreen' 'Coordinate Transformation Matrix' 0 -1 1 1 0 0 0 0 1"
